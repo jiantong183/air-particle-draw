@@ -11,7 +11,7 @@ A camera-based **air-writing** web toy: pinch your fingers in the air to draw gl
 
 ## 🎬 在线体验 / Live Demo
 
-部署到 GitHub Pages 后，访问：`https://<你的用户名>.github.io/air-particle-draw/`
+部署到 GitHub Pages 后，访问：`https://jiantong183.github.io/air-particle-draw/`
 
 > ⚠️ 摄像头只能在 **HTTPS** 或 **localhost** 下使用。GitHub Pages 是 HTTPS，所以部署后摄像头可直接授权使用；本地直接双击 `index.html`（`file://`）则无法开启摄像头。
 > The camera only works over **HTTPS** or **localhost**. GitHub Pages serves HTTPS, so the deployed page works out of the box. Opening the file directly (`file://`) will **not** allow camera access.
@@ -56,7 +56,7 @@ git init
 git add .
 git commit -m "init: air particle draw"
 git branch -M main
-git remote add origin https://github.com/<你的用户名>/air-particle-draw.git
+git remote add origin https://github.com/jiantong183/air-particle-draw.git
 git push -u origin main
 ```
 
@@ -64,7 +64,7 @@ git push -u origin main
 # 2. 打开仓库 Settings → Pages
 #    Source 选 "Deploy from a branch"
 #    Branch 选 main / (root)，保存
-# 3. 等一两分钟，访问 https://<你的用户名>.github.io/air-particle-draw/
+# 3. 等一两分钟，访问 https://jiantong183.github.io/air-particle-draw/
 ```
 
 本地预览（需要 localhost 才能开摄像头）：
